@@ -1,12 +1,14 @@
 import React from "react";
 import Editor from "./editor";
-import { DocumentIdPageProps } from "@/types/types";
+// import { DocumentIdPageProps } from "@/types/types";
+import { Toolbar } from "./toolbar";
 
-const DocumentIdPage = async ({ params }: DocumentIdPageProps) => {
-  const { documentId } = await params;
+const DocumentIdPage = async () => {
   return (
     <div className="minn-h-screen bg-paper">
-      <p>Document id is : {documentId}</p>
+      <div className="px-8 pt-4">
+        <Toolbar />
+      </div>
       <Editor />
     </div>
   );
