@@ -36,11 +36,13 @@ export const Toolbar = () => {
     onClick: () => void;
     isActive?: boolean;
   }[][] = [
-    {
-      label: "Undo",
-      icon: Undo2Icon,
-      onclick: () => console.log("Undo click"),
-    },
+    [
+      {
+        label: "Undo",
+        icon: Undo2Icon,
+        onClick: () => console.log("Undo click"),
+      },
+    ],
   ];
   return (
     <div className="py-0.5 bg-[#F1F4F9] min-h-[40px] px-2.5 rounded-[24px] flex items-center gap-x-0.5 overflow-x-auto">

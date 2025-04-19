@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx next lint",
     "prettier": "prettier src --check",
-    "lint:fix": "npm run lint -- --fix",
+    "lint:fix": "npm run lint --fix",
     "check-types": "tsc --pretty --noEmit",
     "check-format": "prettier --check .",
     "check-lint": "eslint . --ext ts --ext tsx --ext js --fix",
@@ -18,8 +18,7 @@
   "commitlint": {
     "rules": {
       "references-empty": [
-        2,
-        "never"
+        0
       ],
       "type-enum": [
         2,
