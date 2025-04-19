@@ -23,5 +23,5 @@
       "version": "detect"
     }
   },
-  "ignorePatterns": ["next.config.mjs"] // Add this line
+  "ignorePatterns": ["next.config.mjs"]
 }

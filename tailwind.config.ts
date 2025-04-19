@@ -16,6 +16,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        paper: {
+          DEFAULT: "hsl(var(--paper))",
+        },
+        "printer-bg": {
+          DEFAULT: "hsl(var(--printer-bg))",
+        },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
